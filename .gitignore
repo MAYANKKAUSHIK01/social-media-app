@@ -1,0 +1,33 @@
+# --- Dependencies ---
+node_modules/
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Environment Variables (CRITICAL: Do not upload secrets) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
+
+# --- Backend (NestJS) Build Output ---
+# This ignores the generated JavaScript files you mentioned
+dist/
+**/dist/
+*.tsbuildinfo
+
+# --- Frontend (Next.js) Build Output ---
+.next/
+out/
+build/
+.vercel/
+
+# --- Editor & OS Junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
